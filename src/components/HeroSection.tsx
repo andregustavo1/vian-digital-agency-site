@@ -13,7 +13,7 @@ const HeroSection = () => {
       ></div>
       
       <div className="container-section relative z-10 text-white">
-        <div className="max-w-2xl text-left opacity-0 animate-fade-in">
+        <div className="max-w-2xl opacity-0 animate-fade-in">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">
             Tráfego Pago que Converte de Verdade
           </h1>

@@ -81,7 +81,7 @@ const ContactSection = () => {
         <div className="opacity-0 animate-fade-in-right animate-delay-300">
           <div className="relative h-96">
             <div className="absolute inset-0 bg-gradient-to-br from-vian-wine to-vian-red rounded-xl overflow-hidden flex items-center justify-center">
-              <div className="relative z-10 text-white text-center px-6 py-3">
+              <div className="relative z-10 text-white text-center px-6">
                 <h3 className="text-2xl font-bold mb-4">Estratégia Personalizada</h3>
                 <p className="mb-8">Cada negócio é único. Nossa abordagem é personalizada para suas necessidades específicas.</p>
                 

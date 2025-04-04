@@ -122,7 +122,6 @@ const MethodologySection = () => {
                           "w-3 h-3 rounded-full transition-all duration-300",
                           activeStep === index ? "bg-vian-red w-6" : "bg-vian-red/30"
                         )}
-                        aria-label={`Ir para etapa ${index + 1}`}
                       />
                     ))}
                   </div>
