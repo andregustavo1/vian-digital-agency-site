@@ -58,8 +58,10 @@ const Header = () => {
         
         <Button 
           className={cn(
-            'bg-vian-red hover:bg-vian-wine text-white transition-colors duration-300',
-            scrolled ? 'text-white' : 'text-white'
+            'transition-all duration-300',
+            scrolled 
+              ? 'bg-vian-red hover:bg-vian-wine text-white' 
+              : 'bg-transparent border border-white text-white hover:bg-white/20'
           )}
           onClick={() => window.open(whatsappUrl, '_blank')}
         >

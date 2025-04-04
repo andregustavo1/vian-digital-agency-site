@@ -1,5 +1,5 @@
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { ChevronLeft, ChevronRight, Search, PieChart, Target, BarChart, RefreshCw } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { cn } from '@/lib/utils';
@@ -48,6 +48,15 @@ const MethodologySection = () => {
   const prevStep = () => {
     setActiveStep((prev) => (prev === 0 ? steps.length - 1 : prev - 1));
   };
+
+  // Adiciona autoplaying entre os slides (opcional)
+  useEffect(() => {
+    const interval = setInterval(() => {
+      nextStep();
+    }, 8000); // Muda a cada 8 segundos
+
+    return () => clearInterval(interval);
+  }, []);
 
   return (
     <section className="py-20 bg-vian-neutral">
@@ -122,6 +131,7 @@ const MethodologySection = () => {
                           "w-3 h-3 rounded-full transition-all duration-300",
                           activeStep === index ? "bg-vian-red w-6" : "bg-vian-red/30"
                         )}
+                        aria-label={`Ir para a etapa ${index + 1}`}
                       />
                     ))}
                   </div>
