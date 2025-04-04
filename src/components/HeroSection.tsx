@@ -42,20 +42,20 @@ const HeroSection = () => {
               <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 border border-white/20">
                 <div className="grid grid-cols-2 gap-4">
                   <div className="bg-white/20 rounded p-4">
-                    <div className="h-4 w-20 bg-white/30 rounded mb-2"></div>
-                    <div className="h-8 w-32 bg-white/40 rounded-lg"></div>
+                    <div className="h-4 w-16 bg-white/30 rounded mb-2"></div>
+                    <div className="h-8 w-22 bg-white/40 rounded-lg"></div>
                   </div>
                   <div className="bg-white/20 rounded p-4">
                     <div className="h-4 w-16 bg-white/30 rounded mb-2"></div>
-                    <div className="h-8 w-28 bg-white/40 rounded-lg"></div>
+                    <div className="h-8 w-22 bg-white/40 rounded-lg"></div>
                   </div>
                   <div className="bg-white/20 rounded p-4">
-                    <div className="h-4 w-24 bg-white/30 rounded mb-2"></div>
-                    <div className="h-8 w-full bg-white/40 rounded-lg"></div>
+                    <div className="h-4 w-16 bg-white/30 rounded mb-2"></div>
+                    <div className="h-8 w-22 bg-white/40 rounded-lg"></div>
                   </div>
                   <div className="bg-white/20 rounded p-4">
-                    <div className="h-4 w-20 bg-white/30 rounded mb-2"></div>
-                    <div className="h-8 w-3/4 bg-white/40 rounded-lg"></div>
+                    <div className="h-4 w-16 bg-white/30 rounded mb-2"></div>
+                    <div className="h-8 w-22 bg-white/40 rounded-lg"></div>
                   </div>
                 </div>
                 <div className={`mt-4 ${isMobile ? 'h-24' : 'h-32'} bg-white/20 rounded-lg overflow-hidden`}>
