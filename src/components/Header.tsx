@@ -38,7 +38,7 @@ const Header = () => {
           <span className={cn(
             'transition-colors duration-300',
             scrolled ? 'text-vian-red' : 'text-white'
-          )}> Vian</span>
+          )}>Vian</span>
         </a>
         
         <nav className="hidden md:flex space-x-8">
