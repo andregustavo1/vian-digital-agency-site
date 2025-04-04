@@ -53,7 +53,7 @@ const MethodologySection = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       nextStep();
-    }, 8000); // Muda a cada 8 segundos
+    }, 1000000000); // Muda a cada 8 segundos
 
     return () => clearInterval(interval);
   }, []);
