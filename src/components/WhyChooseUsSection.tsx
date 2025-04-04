@@ -26,7 +26,7 @@ const WhyChooseUsSection = () => {
   ];
 
   return (
-    <section className="py-20 bg-gradient-to-br from-vian-wine to-vian-red overflow-hidden">
+    <section className="py-20 bg-gradient-to-br from-[#4A0000] via-vian-wine to-vian-red overflow-hidden">
       <div className="container-section text-white">
         <div className="text-center max-w-3xl mx-auto mb-12">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 opacity-0 animate-fade-in">Por Que Nos Escolher?</h2>

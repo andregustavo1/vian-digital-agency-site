@@ -10,7 +10,7 @@ const HeroSection = () => {
   return (
     <section id="início" className="relative min-h-screen flex items-center pt-20 overflow-hidden">
       <div 
-        className="absolute inset-0 bg-gradient-to-r from-vian-wine to-vian-red opacity-90 z-0"
+        className="absolute inset-0 bg-gradient-to-r from-[#4A0000] via-vian-wine to-vian-red opacity-90 z-0"
         style={{ clipPath: 'polygon(0 0, 100% 0, 100% 85%, 0 100%)' }}
       ></div>
       

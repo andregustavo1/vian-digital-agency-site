@@ -64,6 +64,7 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				},
 				vian: {
+					darkWine: '#4A0000',
 					wine: '#8B0000',
 					red: '#C41E3A',
 					lightRed: '#E34234',
