@@ -12,7 +12,8 @@ const HeroSection = () => {
         style={{ clipPath: 'polygon(0 0, 100% 0, 100% 85%, 0 100%)' }}
       ></div>
       
-      <div className="container-section relative z-10 text-white">
+      <div className='max-w-[1280px] mx-auto w-full relative'>
+      <div className="container-section mx-0 z-10 text-white">
         <div className="max-w-2xl opacity-0 animate-fade-in">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">
             Tráfego Pago que Converte de Verdade
@@ -31,8 +32,8 @@ const HeroSection = () => {
           </Button>
         </div>
         
-        <div className="absolute right-0 bottom-0 w-1/2 opacity-0 animate-fade-in-right animate-delay-400 hidden lg:block">
-          <div className="relative">
+        <div className="absolute right-0 top-0 w-1/2 opacity-0 animate-fade-in-right animate-delay-400 hidden lg:block">
+          <div className="relative ml-20">
             <div className="absolute -top-20 -left-20 w-40 h-40 bg-white/10 rounded-full blur-xl"></div>
             <div className="absolute -bottom-10 -right-10 w-60 h-60 bg-white/5 rounded-full blur-xl"></div>
             <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 border border-white/20">
@@ -68,6 +69,7 @@ const HeroSection = () => {
             </div>
           </div>
         </div>
+      </div>
       </div>
     </section>
   );

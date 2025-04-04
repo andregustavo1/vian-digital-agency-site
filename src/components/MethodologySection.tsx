@@ -107,9 +107,6 @@ const MethodologySection = () => {
               <div className="relative">
                 <div className="aspect-square bg-vian-neutral/50 rounded-lg p-6 flex items-center justify-center">
                   <div className="text-6xl font-bold text-vian-red/20">{activeStep + 1}/5</div>
-                  <div className="absolute inset-0 flex items-center justify-center">
-                    <div className="w-32 h-32 bg-vian-red/5 rounded-full animate-pulse"></div>
-                  </div>
                 </div>
                 
                 <div className="flex justify-between mt-6">
